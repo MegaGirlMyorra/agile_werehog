@@ -9,3 +9,10 @@ Mod for Sonic Unleashed Recompiled to make the Werehog more enjoyable to control
 - All B-mashing actions only require one B-press
 - Much faster box pushing
 - Faster movement while guarding
+
+# To Do
+- Increase speed while carrying objects. Not sure how to do that.
+
+# Credits and Links
+ - Built from [Vanilla Werehog Tweaks](https://gamebanana.com/mods/581838)
+ - [Mod Github](https://github.com/YousifAlkhalaf/supersonic_werehog)

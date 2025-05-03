@@ -305,13 +305,13 @@
           <Slide_Gravity>0.3</Slide_Gravity>
           <Slide_PowerJump>7.5</Slide_PowerJump>
           <Slide_InputForceFront>1</Slide_InputForceFront>
-          <Slide_InputForceSide>25</Slide_InputForceSide> <!--Affects turning speed when sliding, but not 100% sure how it's different from "Slide_PadRotIntencity". Was 12.5.-->
-          <Slide_PadRotIntencity>20</Slide_PadRotIntencity> <!--Turning speed when sliding. "PadRot" = pad rotation. Was 7.5.-->
+          <Slide_InputForceSide>25</Slide_InputForceSide> <!--Affects turning speed when sliding, but not 100% sure how it's different from "Slide_PadRotIntencity".-->
+          <Slide_PadRotIntencity>20</Slide_PadRotIntencity> <!--Turning speed when sliding. "PadRot" = pad rotation.-->
         </Param>
       </Base>
       <Jump>
         <Param>
-          <Slide_PadRotIntencity_InAir>8</Slide_PadRotIntencity_InAir> <!--Turning speed when jumping from a slide. "PadRot" = pad rotation. Was 5.-->
+          <Slide_PadRotIntencity_InAir>8</Slide_PadRotIntencity_InAir> <!--Turning speed when jumping from a slide. "PadRot" = pad rotation.-->
           <Slide_FallStartVel_InAir>-15</Slide_FallStartVel_InAir>
           <Slide_AirAccelerationForce>1</Slide_AirAccelerationForce>
           <Slide_AirDecelerationForce>2.5</Slide_AirDecelerationForce>
