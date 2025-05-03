@@ -281,7 +281,7 @@
           <EnemySwing_Speed_L_Max>1.6</EnemySwing_Speed_L_Max>
           <EnemySwing_AutoMaxEndTimeLength>2.5</EnemySwing_AutoMaxEndTimeLength>
           <EnemySwing_AutoStartContinueTime>0.1</EnemySwing_AutoStartContinueTime>
-          <EnemySwing_MoveSpeed>3</EnemySwing_MoveSpeed>
+          <EnemySwing_MoveSpeed>20</EnemySwing_MoveSpeed> <!--Test. Was 3-->
         </Param>
       </MiddleEnemyAction>
       <SmallEnemyAction>
@@ -292,7 +292,7 @@
           <EnemySwing_MotionSpeed_E>.875</EnemySwing_MotionSpeed_E>
           <EnemySwing_AutoEndTimeLength>2</EnemySwing_AutoEndTimeLength>
           <EnemySwing_AutoStartContinueTime>0.1</EnemySwing_AutoStartContinueTime>
-          <EnemySwing_MoveSpeed>1.5</EnemySwing_MoveSpeed>
+          <EnemySwing_MoveSpeed>20</EnemySwing_MoveSpeed> <!--Test. Was 1.5-->
         </Param>
       </SmallEnemyAction>
     </Category>
