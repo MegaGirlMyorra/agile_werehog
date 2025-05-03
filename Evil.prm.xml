@@ -23,7 +23,7 @@
         <!--1.1, 2.9, 7, 18-->
           <Speed_SlowWalk_>1.1</Speed_SlowWalk_> <!--Slowest speed level when lightly pushing the stick. Was 1.0.-->
           <Speed_Walk_>2.1</Speed_Walk_> <!--Middle speed level when lightly pushing the stick. Was 2.2.-->
-          <Speed_Run_>7.5</Speed_Run_> <!--Speed level when fully pushing the stick. Unchanged.-->
+          <Speed_Run_>6.8</Speed_Run_> <!--Speed level when fully pushing the stick. Unchanged.-->
           <Speed_Dash_>17.5</Speed_Dash_> <!--Speed level when holding the trigger. Unchanged.-->
           <PadIntencity_WalkSlow>0.06</PadIntencity_WalkSlow> <!--How far to push the stuck to activate slowest speed level. Lowering results in less dead zone? Was 0.1.-->
           <PadIntencity_Walk>0.4</PadIntencity_Walk> <!--How far to push the stuck to activate middle speed level. Was 0.5.-->
@@ -38,8 +38,8 @@
         <Param>
           <Gravirty>-17.6</Gravirty>
           <cMaxFallVelocity>-19.6</cMaxFallVelocity>
-          <Height_FirstJump_UP>1.7</Height_FirstJump_UP> <!--Regular jump height. Unchanged-->
-          <Power_FirstJump_Front>8</Power_FirstJump_Front> <!--Regular jump forward velocity. Unchanged.-->
+          <Height_FirstJump_UP>1.8</Height_FirstJump_UP> <!--Regular jump height. Unchanged-->
+          <Power_FirstJump_Front>6</Power_FirstJump_Front> <!--Regular jump forward velocity. Unchanged.-->
           <Height_SecondJump_UP>2.7</Height_SecondJump_UP> <!--Double jump height. Was 1.-->
           <Power_SecondJump_Front>8</Power_SecondJump_Front> <!--Double jump forward velocity. Fixed regardless of whether or not the player was dashing for first jump. Unchanged.-->
           <Height_DashJump_UP>2.0</Height_DashJump_UP> <!--Dashing jump height. Unchanged.-->
@@ -191,7 +191,7 @@
       </Guard>
       <Escape>
         <Param>
-          <GuardEscapeMoveRatio_>1.6</GuardEscapeMoveRatio_> <!--Dodge roll distance. Reduced to avoid falling off smaller platforms or sliding away on ice. Was 1.5.-->
+          <GuardEscapeMoveRatio_>1.6</GuardEscapeMoveRatio_> <!--Dodge roll distance.-->
         </Param>
       </Escape>
     </Category>
@@ -215,8 +215,8 @@
       <Base>
         <Param>
           <DrawDebug>false</DrawDebug> <!--Tried setting to true. Didn't notice any difference when climbing.-->
-          <CheckRadius_>9</CheckRadius_> <!--Horizontal grabbing range for climbable object. 9 barely results in one found Eggmanland skip. Was 5.-->
-          <CheckHeight>4.5</CheckHeight> <!--Horizontal grabbing range for climbable object. Any higher than 6 results in a few unintended skips. Was 4.-->
+          <CheckRadius_>8</CheckRadius_> <!--Horizontal grabbing range for climbable object. 9 barely results in one found Eggmanland skip. Was 5.-->
+          <CheckHeight>3</CheckHeight> <!--Horizontal grabbing range for climbable object. Any higher than 6 results in a few unintended skips. Was 4.-->
           <CheckHeight_Hang>5</CheckHeight_Hang>
         </Param>
       </Base>
