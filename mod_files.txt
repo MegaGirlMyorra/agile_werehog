@@ -1,0 +1,6 @@
+add +#ActionCommon.ar.00
+add +#ActionCommon.arl
+add +#SystemCommon.ar.00
+add +#SystemCommon.arl
+add Evil.prm.xml
+add mod.ini
