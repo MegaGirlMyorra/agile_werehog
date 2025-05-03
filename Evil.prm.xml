@@ -21,16 +21,16 @@
       <Move>
         <Param>
         <!--1.1, 2.9, 7, 18-->
-          <Speed_SlowWalk_>1.1</Speed_SlowWalk_> <!--Slowest speed level when lightly pushing the stick. Was 1.0.-->
-          <Speed_Walk_>2.1</Speed_Walk_> <!--Middle speed level when lightly pushing the stick. Was 2.2.-->
-          <Speed_Run_>6.8</Speed_Run_> <!--Speed level when fully pushing the stick. Unchanged.-->
-          <Speed_Dash_>17.5</Speed_Dash_> <!--Speed level when holding the trigger. Unchanged.-->
-          <PadIntencity_WalkSlow>0.06</PadIntencity_WalkSlow> <!--How far to push the stuck to activate slowest speed level. Lowering results in less dead zone? Was 0.1.-->
-          <PadIntencity_Walk>0.4</PadIntencity_Walk> <!--How far to push the stuck to activate middle speed level. Was 0.5.-->
-          <PadIntencity_Run>0.85</PadIntencity_Run> <!--How far to push the stuck to activate fastest speed level. Was 0.8.-->
+          <Speed_SlowWalk_>1.1</Speed_SlowWalk_> <!--Slowest speed level when lightly pushing the stick..-->
+          <Speed_Walk_>2.1</Speed_Walk_> <!--Middle speed level when lightly pushing the stick.-->
+          <Speed_Run_>6.8</Speed_Run_> <!--Speed level when fully pushing the stick.-->
+          <Speed_Dash_>17.5</Speed_Dash_> <!--Speed level when holding the trigger.-->
+          <PadIntencity_WalkSlow>0.06</PadIntencity_WalkSlow> <!--How far to push the stuck to activate slowest speed level. Lowering results in less dead zone? -->
+          <PadIntencity_Walk>0.4</PadIntencity_Walk> <!--How far to push the stuck to activate middle speed level.-->
+          <PadIntencity_Run>0.85</PadIntencity_Run> <!--How far to push the stuck to activate fastest speed level.-->
           <SlowWalkState_DelayTim__>0</SlowWalkState_DelayTim__> <!--Delay when starting SlowWalk. Was 0.05.-->
           <WalkState_DelayTime__>0</WalkState_DelayTime__> <!--Delay when starting Walk. Was 0.05.-->
-          <MotionBlendTime>0.1</MotionBlendTime> <!--Animation blending. 0 causes flicker when going from stangin to running. Unchanged.-->
+          <MotionBlendTime>0.1</MotionBlendTime> <!--Animation blending. 0 causes flicker when going from stangin to running.-->
           <DashStartMotion>1</DashStartMotion> <!--Tried at 0 and 10 and noticed no difference when dashing. "Motion" means it's animation related.-->
         </Param>
       </Move>
@@ -38,17 +38,17 @@
         <Param>
           <Gravirty>-17.6</Gravirty>
           <cMaxFallVelocity>-19.6</cMaxFallVelocity>
-          <Height_FirstJump_UP>1.8</Height_FirstJump_UP> <!--Regular jump height. Unchanged-->
-          <Power_FirstJump_Front>6</Power_FirstJump_Front> <!--Regular jump forward velocity. Unchanged.-->
-          <Height_SecondJump_UP>2.7</Height_SecondJump_UP> <!--Double jump height. Was 1.-->
-          <Power_SecondJump_Front>8</Power_SecondJump_Front> <!--Double jump forward velocity. Fixed regardless of whether or not the player was dashing for first jump. Unchanged.-->
-          <Height_DashJump_UP>2.0</Height_DashJump_UP> <!--Dashing jump height. Unchanged.-->
-          <Power_DashJump_Front>20</Power_DashJump_Front> <!--Dashing jump forward velocity. Unchanged.-->
+          <Height_FirstJump_UP>1.8</Height_FirstJump_UP> <!--Regular jump height.-->
+          <Power_FirstJump_Front>6</Power_FirstJump_Front> <!--Regular jump forward velocity.-->
+          <Height_SecondJump_UP>2.7</Height_SecondJump_UP> <!--Double jump height.-->
+          <Power_SecondJump_Front>8</Power_SecondJump_Front> <!--Double jump forward velocity. Fixed regardless of whether or not the player was dashing for first jump.-->
+          <Height_DashJump_UP>2.0</Height_DashJump_UP> <!--Dashing jump height.-->
+          <Power_DashJump_Front>20</Power_DashJump_Front> <!--Dashing jump forward velocity.-->
           <Height_CatchJump_UP>2</Height_CatchJump_UP>
           <Power_HandleJump>12</Power_HandleJump>
           <Power_HangJump>12</Power_HangJump>
-          <Power_EnemyJump_Front>8</Power_EnemyJump_Front> <!--Was 10-->
-          <Power_EnemyJump_UP>10</Power_EnemyJump_UP> <!--How high Sonic bounces when grabbing those floating enemies. Was 8.-->
+          <Power_EnemyJump_Front>8</Power_EnemyJump_Front> <!--Forward velocity after grabbing floating enemies.-->
+          <Power_EnemyJump_UP>10</Power_EnemyJump_UP> <!--How high Sonic bounces when grabbing those floating enemies.-->
           <LandVel_MotionTypeS>-99</LandVel_MotionTypeS> <!--The speed you have to fall at before the "TypeS" landing animation plays. Lower is more downward velocity. Was -15.-->
           <LandVel_MotionTypeM>-99</LandVel_MotionTypeM> <!--The speed you have to fall at before the "TypeM" landing animation plays. Lower is more downward velocity. Was -20.-->
         </Param>
@@ -215,8 +215,8 @@
       <Base>
         <Param>
           <DrawDebug>false</DrawDebug> <!--Tried setting to true. Didn't notice any difference when climbing.-->
-          <CheckRadius_>8</CheckRadius_> <!--Horizontal grabbing range for climbable object. 9 barely results in one found Eggmanland skip. Was 5.-->
-          <CheckHeight>3</CheckHeight> <!--Horizontal grabbing range for climbable object. Any higher than 6 results in a few unintended skips. Was 4.-->
+          <CheckRadius_>7</CheckRadius_> <!--Horizontal grabbing range for climbable object.-->
+          <CheckHeight>3</CheckHeight> <!--Vertical grabbing range for climbable object.-->
           <CheckHeight_Hang>5</CheckHeight_Hang>
         </Param>
       </Base>
@@ -266,8 +266,8 @@
       </Handle>
       <PushBox>
         <Param>
-          <Power_default>1.8</Power_default> <!--Box pushing speed when not holding the trigger. Was 1.-->
-          <Power_high>3</Power_high> <!--Box pushing speed when holding the trigger. Increased by the same ratio as Power_default, if I remember right. Was 1.5.-->
+          <Power_default>1.8</Power_default> <!--Box pushing speed when not holding the trigger.-->
+          <Power_high>3</Power_high> <!--Box pushing speed when holding the trigger.-->
         </Param>
       </PushBox>
       <MiddleEnemyAction>

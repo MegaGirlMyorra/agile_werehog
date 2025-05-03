@@ -7,4 +7,5 @@ Mod for Sonic Unleashed Recompiled to make the Werehog more enjoyable to control
 - Higher jump and double jump. Allows for some skips.
 - Slightly lower gravity
 - All B-mashing actions only require one B-press
-
+- Much faster box pushing
+- Faster movement while guarding
